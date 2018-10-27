@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CALUM.GQ</title>
+		<!-- START METADATA -->
+		<meta name="author" content="Calum Dingwall" >
+		<meta name="description" content="Calum Dingwall's Website">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- END METADATA -->
+		<!-- START DEPENDENCIES -->
+		<link rel="stylesheet" href="w3.css">
+		<link rel="stylesheet" href="style.css">
+		<!-- END DEPENDENCIES -->
+	</head>
+	<body>
+		<!-- START HEADER -->
+		<div class="w3-top">
+			<nav class="header w3-bar w3-black">
+				<img src="images/logo.png" alt="Calum Dingwall (CALUM.GQ)">
+			</nav>
+			<div class="header w3-black">
+				<a class="w3-bar-item">—</a>
+				<a href="./home" class="w3-button w3-bar-item w3-hover-white">HOME</a>
+				<a href="./about" class="w3-button w3-bar-item w3-hover-white">ABOUT</a>
+				<a href="./contact" class="w3-button w3-bar-item w3-hover-white">CONTACT</a>
+				<a href="./sites" class="w3-button w3-bar-item w3-hover-white">SITES</a>
+				<a href="./music" class="w3-button w3-bar-item w3-hover-white">MUSIC</a>
+				<a href="./files" class="w3-button w3-bar-item w3-hover-white">FILES</a>
+				<a href="" class="w3-button w3-bar-item w3-hover-white">BLOG</a>
+				<a class="w3-bar-item">—</a>
+			</nav>
+		</div>
+		<!-- END HEADER -->
+		<div class="content split">
+			<!-- START CONTENT -->
+			<div class="column column-left" >
+				<h1>Welcome to CALUM.GQ</h1>
+				<p><em>A Newsletter Sign Up Form will be Available Soon</em></p>
+				<br>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/cdWU63_6gGo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<!-- END CONTENT -->
+			<!-- START SOCIAL LINKS -->
+			<div class="column column-right">
+				<h1>Subscribe on YouTube</h1>
+					<script src="https://apis.google.com/js/platform.js"></script>
+					<div style="text-align: right" class="g-ytsubscribe" data-channelid="UCdbdk0CJ_w11DT13JYCJ7hA" data-layout="full" data-theme="dark" data-count="default"><a class="link" href="https://www.youtube.com/channel/UCdbdk0CJ_w11DT13JYCJ7hA?sub_confirmation=1" target="_blank">CalumND9 CREATIVE</a></div>
+				<h1>Follow on Spotify</h1>
+					<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:4gStQf49SXYXZmP1isfb28&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="margin: 0 0 0 auto;border:none; overflow:hidden;" allowtransparency="true"><a class="link" href="https://open.spotify.com/artist/4gStQf49SXYXZmP1isfb28" target="_blank">Calum Dingwall</a></iframe>
+				<h1>Follow on SoundCloud</h1>
+					<a href="https://www.soundcloud.com/ccreativecnd" target="_blank"><img src="images/soundcloud.png" alt="SoundCloud" height="36"></a>   <a class="link" href="https://www.soundcloud.com/ccreativecnd" target="_blank">CalumND9 CREATIVE</a>
+				<h1>Follow on Twitter</h1>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<a href="https://twitter.com/ccreativecnd?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">@ccreativecnd</a>
+				<h1>Follow on Twitch</h1>
+					<a href="https://www.twitch.tv/calumnd9" target="_blank"><img src="images/twitch.png" alt="Twitch" height="36"></a>   <a class="link" href="https://www.twitch.tv/calumnd9" target="_blank">CalumND9
+			</div>
+			<!-- END SOCIAL LINKS -->
+		</div>
+	</body>
+</html>
