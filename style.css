@@ -57,7 +57,7 @@ p {
 
 .column-right {
 	width: 40%;
-	text-align: right;
+	text-align: left;
 	overflow: visible;
 }
 
