@@ -1,5 +1,6 @@
 body {
 	background-color: #232324;
+	overflow: visible;
 }
 
 .header {
@@ -16,6 +17,7 @@ body {
 	margin: 0 10%;
 	color: white;
 	font-family: Verdana,sans-serif;
+	overflow: visible;
 }
 
 h1 {
@@ -44,16 +46,19 @@ p {
 
 .column {
 	float: left;
+	overflow: visible;
 }
 
 .column-left {
 	width: 60%;
 	text-align: left;
+	overflow: visible;
 }
 
 .column-right {
 	width: 40%;
 	text-align: right;
+	overflow: visible;
 }
 
 .split:after {
