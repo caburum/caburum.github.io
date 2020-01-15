@@ -32,8 +32,8 @@ function get_repos(){
 			$link.append('<span class="repo_details repo_desc">' + repo.description + '</span>');
 			$link.append('<span class="repo_details repo_forks">' + repo.forks_count + '</span>');
 			$link.append('<span class="repo_details repo_updated">' + repo.updated_at + '</span>');
-			//$link.append('<span class="repo_details repo_url">' + repo.html_url + '</span>');
-			$link.append('<span class="repo_details repo_url">' + repo.homepage + '</span>');
+			$link.append('<span class="repo_details repo_url">' + repo.html_url + '</span>');
+			//$link.append('<span class="repo_details repo_url">' + repo.homepage + '</span>');
 			$link.appendTo($item);
 			$item.appendTo('#clock');
 			$item.on( "click", function(){
