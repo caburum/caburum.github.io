@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+/* Dark theme */
+:root {
+	--text: #ddd;
+	--dark: #111;
+	--medium: #222;
+	--light: #333;
+}
+
+/* General */
+:root {
+	--border-radius: 0.5em;
+	--transition-transform: transform 200ms cubic-bezier(0.2, 1, 0.8, 1);
+	--transition-opacity: opacity 150ms linear;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: var(--dark);
+	color: var(--text);
+	padding: 5em;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Buttons */
+button {
+	cursor: pointer;
+	border-radius: 100vw;
+	font-weight: bold;
+	padding: 0.5em 1.25em;
+	border: 0.0125em solid var(--text);
+	color: var(--text);
+	background-color: transparent;
+}
+
+/* Project cards */
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	gap: 5rem;
+}
+
+.project {
+	position: relative;
+	width: 10em;
+}
+
+.project .main {
+}
+
+.project .name {
+	text-align: center;
+	margin: 0.5em 0;
+}
+
+.project .stats {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.project .details .stats p {
+	display: grid;
+	place-items: center;
+	margin: 0 0.5em;
+	font-size: 0.9rem;
+}
+
+.project .details .stats span {
+	font-size: 0.8rem;
+}
+
+.project .stats span {
+	font-size: 0.85rem;
+}
+
+.project .languages {
+	display: flex;
+	text-align: center;
+}
+
+.project .languages img {
+	width: 2em;
+	height: 2em;
+	border-radius: 1vw;
+	border: 2px solid var(--medium);
+}
+
+.project .details {
+	opacity: 0;
+	position: absolute;
+	z-index: 11;
+	top: -5%;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5em;
+	transform: translateY(2%);
+}
+
+.project:hover .details {
+	opacity: 1;
+}
+
+.project .desc {
+	font-size: 0.9rem;
+}
+
+.project .background {
+	background-color: var(--medium);
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	bottom: -200%;
+	left: -25%;
+	right: -25%;
+	transform: scale(0.5);
+	opacity: 0;
+	border-radius: var(--border-radius);
+	overflow: hidden;
+	transition: var(--transition-transform);
+}
+
+.project:hover .background {
+	transform: scale(1);
+	opacity: 1;
+}
