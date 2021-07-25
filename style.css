@@ -123,13 +123,12 @@ button {
 	opacity: 1;
 }
 
-.project .details .desc,
-.project .details .stats {
+.project .details .transformer {
 	transform: scale(0.5);
+	transition: var(--transition-transform);
 }
 
-.project:hover .details .desc,
-.project:hover .details .stats {
+.project:hover .details .transformer {
 	transform: scale(1);
 }
 
@@ -142,7 +141,7 @@ button {
 	position: absolute;
 	z-index: 10;
 	top: 0;
-	bottom: -200%;
+	bottom: -150%;
 	left: -25%;
 	right: -25%;
 	transform: scale(0.5);
