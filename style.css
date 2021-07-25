@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 /* Dark theme */
 :root {
@@ -22,7 +22,7 @@
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	background-color: var(--dark);
 	color: var(--text);
 	padding: 5em;
@@ -101,7 +101,7 @@ button {
 .project .languages img {
 	width: 2em;
 	height: 2em;
-	border-radius: 1vw;
+	border-radius: 0.33em;
 	border: 2px solid var(--medium);
 }
 
@@ -121,6 +121,16 @@ button {
 
 .project:hover .details {
 	opacity: 1;
+}
+
+.project .details .desc,
+.project .details .stats {
+	transform: scale(0.5);
+}
+
+.project:hover .details .desc,
+.project:hover .details .stats {
+	transform: scale(1);
 }
 
 .project .desc {
